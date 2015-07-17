@@ -1,17 +1,18 @@
 [
-	{ "keys": ["ctrl+back_slash"], "command": "toggle_comment", "args": { "block": false } },
-
+	{ "keys": ["\\", "\\"], "command": "toggle_comment", "args": { "block": false }},
+  { "keys": ["super+b"], "command": "toggle_side_bar" },
+  { "keys": ["ctrl+d", "ctrl+d"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
 	{ "keys": ["super+k", "super+r"], "command": "run_single_ruby_test",
     "context": [ { "key": "selector", "operator": "equal",
                   "operand": "source.ruby, source.rspec, text.gherkin.feature"
               } ]
   },
-
   { "keys": ["super+k", "super+t"], "command": "run_all_ruby_test",
       "context": [ { "key": "selector", "operator": "equal",
         "operand": "source.ruby, source.rspec, text.gherkin.feature"
                 } ]
   },
 
-  { "keys": ["super+shift+r"], "command": "goto_symbol_in_project" }
+  { "keys": ["super+shift+r"], "command": "goto_symbol_in_project" },
+  { "keys": ["super+shift+w"], "command": "close_all" }
 ]
