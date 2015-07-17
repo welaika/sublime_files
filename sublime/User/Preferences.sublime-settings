@@ -50,6 +50,13 @@
 		"Package Control.ca-list",
 		"*ca-bundle"
 	],
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+	"theme": "Material-Theme-Darker.sublime-theme",
+	"material_theme_small_tab": true,
+	"overlay_scroll_bars": "enabled",
+	"bold_folder_labels": true,
+	"draw_white_space": "selection",
+	"ensure_newline_at_eof_on_save": true,
 	"folder_exclude_patterns":
 	[
 		".svn",
