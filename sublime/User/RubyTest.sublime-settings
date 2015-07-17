@@ -16,12 +16,12 @@
   "ruby_rspec_folder": "spec",
 
   "check_for_rbenv": true,
-  "check_for_rvm": false,
+  "check_for_rvm": true,
   "check_for_bundler": false,
   "check_for_spring": false,
 
   "ruby_use_scratch" : false,
-  "save_on_run": false,
+  "save_on_run": true,
   "ignored_directories": [".git", "vendor", "tmp"],
 
   "hide_panel": false,
@@ -30,6 +30,8 @@
   "after_callback": "",
 
   "theme": "Packages/RubyTest/TestConsole.hidden-tmTheme",
-  "syntax": "Packages/RubyTest/TestConsole.tmLanguage"
+  "syntax": "Packages/RubyTest/TestConsole.tmLanguage",
+
+  "terminal_encoding": "UTF-8"
 
 }
