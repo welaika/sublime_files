@@ -18,10 +18,7 @@
 		"*.scssc",
 		"*.sassc"
 	],
-	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
-	"draw_white_space": "selection",
-	"ensure_newline_at_eof_on_save": true,
-	"extra_file_exclude_patterns":
+	"file_exclude_patterns":
 	[
 		"*.pyc",
 		"*.pyo",
@@ -44,54 +41,22 @@
 		"*.db",
 		"*.sublime-workspace"
 	],
-	"extra_folder_exclude_patterns":
-	[
-		".svn",
-		".git",
-		".hg",
-		"CVS"
-	],
-	"file_exclude_patterns":
-	[
-		"*.pyc",
-		"*.pyo",
-		"*.exe",
-		"*.dll",
-		"*.obj",
-		"*.o",
-		"*.a",
-		"*.lib",
-		"*.so",
-		"*.dylib",
-		"*.ncb",
-		"*.sdf",
-		"*.suo",
-		"*.pdb",
-		"*.idb",
-		".DS_Store",
-		"*.class",
-		"*.psd",
-		"*.db",
-		"*.sublime-workspace",
-		"/Users/fuzzy/dev/ecodom/app/index.html"
-	],
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"draw_white_space": "selection",
+	"ensure_newline_at_eof_on_save": true,
 	"folder_exclude_patterns":
 	[
 		".svn",
 		".git",
 		".hg",
-		"CVS",
-		"/Users/fuzzy/dev/ecodom/test/bower_components",
-		"/Users/fuzzy/dev/ecodom/.tmp",
-		"/Users/fuzzy/dev/ecodom/.sass-cache",
-		"/Users/fuzzy/dev/ecodom/node_modules",
-		"/Users/fuzzy/dev/ecodom/dist",
-		"/Users/fuzzy/dev/ecodom/bower_components"
+		"coverage",
+		"public",
+		"tmp"
 	],
 	"font_face": "Ubuntu Mono",
 	"font_size": 15,
 	"highlight_line": true,
-	"highlight_modified_tab": true,
 	"ignored_packages":
 	[
 		"Vintage"
@@ -100,13 +65,10 @@
 	[
 		"draw_active"
 	],
-	"rulers":
-	[
-		100
-	],
 	"show_encoding": true,
 	"tab_size": 2,
 	"theme": "Spacegray.sublime-theme",
 	"trim_trailing_white_space_on_save": true,
+	"translate_tabs_to_spaces": true,
 	"word_wrap": true
 }
