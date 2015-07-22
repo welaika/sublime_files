@@ -59,7 +59,7 @@
 		"public",
 		"tmp"
 	],
-	"font_face": "Ubuntu Mono",
+	"font_face": "Monoid",
 	"font_size": 15,
 	"highlight_line": true,
 	"ignored_packages":
