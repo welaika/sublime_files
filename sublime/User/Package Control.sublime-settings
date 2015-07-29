@@ -19,7 +19,7 @@
 		"Jade",
 		"jQuery",
 		"Markdown Preview",
-		"Materialize",
+		"Material Theme",
 		"Open Folder",
 		"Package Control",
 		"Path Tools",
@@ -40,7 +40,6 @@
 		"SublimeLinter-rubocop",
 		"SublimeLinter-xmllint",
 		"Terminal",
-		"Material Theme",
 		"Wordless",
 		"WordPress"
 	]
