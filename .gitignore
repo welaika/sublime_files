@@ -1,9 +1,7 @@
-backup/
+*/
 .DS_store
 .SublimeREPLHistory
 *.last-run
 Package Control.ca-list
 *ca-bundle
 Package Control.system-ca-bundle
-Package Control.cache/
-Package Control.ca-certs/
