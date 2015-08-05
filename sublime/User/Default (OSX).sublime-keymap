@@ -12,8 +12,11 @@
         "operand": "source.ruby, source.rspec, text.gherkin.feature"
                 } ]
   },
-
-  { "keys": ["super+shift+r"], "command": "goto_symbol_in_project" },
   { "keys": ["super+shift+w"], "command": "close_all" },
-  { "keys": ["ctrl+shift+c"], "command": "generate_file" }
+  { "keys": ["ctrl+shift+c"], "command": "generate_file" },
+  { "keys": ["ctrl+alt+up"], "command": "scroll_lines", "args": {"amount": 5.0} },
+  { "keys": ["ctrl+alt+down"], "command": "scroll_lines", "args": {"amount": -5.0} },
+  { "keys": ["ctrl+up"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": false} },
+  { "keys": ["ctrl+down"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": true} },
+  { "keys": ["super+k", "super+c"], "command": "show_at_center" }
 ]
