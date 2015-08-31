@@ -18,5 +18,6 @@
   { "keys": ["ctrl+alt+down"], "command": "scroll_lines", "args": {"amount": -5.0} },
   { "keys": ["ctrl+up"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": false} },
   { "keys": ["ctrl+down"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": true} },
-  { "keys": ["super+k", "super+c"], "command": "show_at_center" }
+  { "keys": ["super+k", "super+c"], "command": "show_at_center" },
+  { "keys": ["super+shift+r"], "command": "goto_symbol_in_project" }
 ]
