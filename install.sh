@@ -1,8 +1,16 @@
 #!/bin/bash
 
+OS=$(uname)
 BACKUP_DIR="$(pwd)/backup"
 SUBLIME_FILES="$(pwd)/sublime/User"
-SUBLIME_DEST_DIR="${HOME}/Library/Application Support/Sublime Text 3/Packages/User"
+if [[ $OS == 'Darwin']]; then
+	SUBLIME_DEST_DIR="${HOME}/Library/Application Support/Sublime Text 3/Packages/User"
+elif [[ $OS == "Linux" ]]; then
+	SUBLIME_DEST_DIR="${HOME}/.config/sublime-text-3/Packages/User/"
+else
+	warn "OS not supported"
+	exit 1
+fi
 
 function warn() {
   echo "$(tput bold)$(tput setaf 3)  *** ${1}$(tput sgr0)"
