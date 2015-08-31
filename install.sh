@@ -6,7 +6,7 @@ SUBLIME_FILES="$(pwd)/sublime/User"
 if [[ $OS == 'Darwin']]; then
 	SUBLIME_DEST_DIR="${HOME}/Library/Application Support/Sublime Text 3/Packages/User"
 elif [[ $OS == "Linux" ]]; then
-	SUBLIME_DEST_DIR="${HOME}/.config/sublime-text-3/Packages/User/"
+	SUBLIME_DEST_DIR="${HOME}/.config/sublime-text-3/Packages/User"
 else
 	warn "OS not supported"
 	exit 1
@@ -19,8 +19,10 @@ function warn() {
 function backup_sublime() {
 	[[ -d "$SUBLIME_DEST_DIR" && ! -L "$SUBLIME_DEST_DIR" ]] || return;
 	backup="${BACKUP_DIR}/sublime/User"
-	if [[ -d "$backup" ]]; then
+	if [[ -d $backup ]]; then
 		warn "$backup already exists"
+	elif [[ -L $backup ]]; then
+		warn "$backup is a symbolic link. I don't know what to do. Please remove it manually and re-run me"
 	else
 		cp -r "$SUBLIME_DEST_DIR" ${backup}
 		rm -rf "$SUBLIME_DEST_DIR"
