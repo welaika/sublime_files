@@ -4,7 +4,7 @@ OS=$(uname)
 BACKUP_DIR="$(pwd)/backup"
 SUBLIME_FILES="$(pwd)/sublime/User"
 
-if [[ $OS == 'Darwin']]; then
+if [[ $OS == 'Darwin' ]]; then
 	SUBLIME_DEST_DIR="${HOME}/Library/Application Support/Sublime Text 3/Packages/User"
 elif [[ $OS == "Linux" ]]; then
 	SUBLIME_DEST_DIR="${HOME}/.config/sublime-text-3/Packages/User/"
