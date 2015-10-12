@@ -50,7 +50,6 @@
 		"*ca-bundle"
 	],
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/Monokai (SL).tmTheme",
 	"theme": "Spacegray.sublime-theme",
 	"draw_white_space": "selection",
 	"ensure_newline_at_eof_on_save": true,
