@@ -49,7 +49,7 @@ directory and will symlink the `User` foder inside your sublime folder (Mac and 
     ```
 
 * Pr0nz0rz fresh key maps
-  * "\\" to comment
+  * "\\\" to comment
   * "super+k", "super+r" to easylly run ruby tests
   * "super+shift+w" to close all buffs
   * rockstar moves:
