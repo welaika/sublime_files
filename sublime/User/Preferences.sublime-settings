@@ -18,6 +18,7 @@
 		"*.scssc",
 		"*.sassc"
 	],
+	"bold_folder_labels": true,
 	"color_scheme": "Packages/User/SublimeLinter/Material Spacegray (SL).tmTheme",
 	"draw_white_space": "selection",
 	"ensure_newline_at_eof_on_save": true,
@@ -49,10 +50,6 @@
 		"Package Control.ca-list",
 		"*ca-bundle"
 	],
-	"bold_folder_labels": true,
-	"theme": "Material Spacegray.sublime-theme",
-	"draw_white_space": "selection",
-	"ensure_newline_at_eof_on_save": true,
 	"folder_exclude_patterns":
 	[
 		".svn",
@@ -76,7 +73,8 @@
 	"material_theme_small_tab": true,
 	"show_encoding": true,
 	"tab_size": 2,
-	"trim_trailing_white_space_on_save": true,
+	"theme": "Material Spacegray.sublime-theme",
 	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
 	"word_wrap": true
 }
