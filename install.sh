@@ -31,7 +31,7 @@ function backup_sublime() {
 function link_sublime() {
 	if [[ -d "$SUBLIME_DEST_DIR" ]]; then
 		warn "${SUBLIME_DEST_DIR} already exists"
-	elif [[ -L "$SUBLIME_DEST_DIR"]]; then
+	elif [[ -L "$SUBLIME_DEST_DIR" ]]; then
 		warn "${SUBLIME_DEST_DIR} is already already a symlink"
 	else
 		ln -s $SUBLIME_FILES "${SUBLIME_DEST_DIR}"
