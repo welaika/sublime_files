@@ -5,7 +5,12 @@ Common packages and configurations for easy sharing and setup
 
 ## Installation:
 
-Prerequisites: Sublime must be previously installed and the package control plugin [already installed](https://packagecontrol.io/installation)
+##### Prerequisites:
+
+* Sublime must be previously installed and the package control plugin [already installed](https://packagecontrol.io/installation)
+* Almost intended to be used on Mac and should someway work on Linux
+
+##### Steps:
 
 1. Fork
 2. Clone your fork into "~/.sublime_files":
