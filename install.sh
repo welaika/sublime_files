@@ -24,6 +24,7 @@ function backup_sublime() {
 	if [[ -d "$backup" ]]; then
 		warn "$backup already exists"
 	else
+		mkdir -p "$backup"
 		cp -r "$SUBLIME_DEST_DIR" ${backup} && rm -rf "$SUBLIME_DEST_DIR"
 	fi
 }
