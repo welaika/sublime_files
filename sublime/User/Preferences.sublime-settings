@@ -19,7 +19,7 @@
 		"*.sassc"
 	],
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/SublimeLinter/Material Spacegray (SL).tmTheme",
+	"color_scheme": "Packages/User/Material-Theme-Darker.tmTheme",
 	"draw_white_space": "selection",
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
@@ -50,13 +50,6 @@
 		"Package Control.ca-list",
 		"*ca-bundle"
 	],
-	"color_scheme": "Packages/User/Material-Theme-Darker.tmTheme",
-	"theme": "Material-Theme-Darker.sublime-theme",
-	"material_theme_small_tab": true,
-	"overlay_scroll_bars": "enabled",
-	"bold_folder_labels": true,
-	"draw_white_space": "selection",
-	"ensure_newline_at_eof_on_save": true,
 	"folder_exclude_patterns":
 	[
 		".svn",
@@ -66,7 +59,7 @@
 		"public",
 		"tmp"
 	],
-	"font_face": "Ubuntu Mono",
+	"font_face": "Monoid",
 	"font_size": 15,
 	"highlight_line": true,
 	"ignored_packages":
@@ -78,9 +71,10 @@
 		"draw_active"
 	],
 	"material_theme_small_tab": true,
+	"overlay_scroll_bars": "enabled",
 	"show_encoding": true,
 	"tab_size": 2,
-	"theme": "Material Spacegray.sublime-theme",
+	"theme": "Material-Theme-Darker.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": true

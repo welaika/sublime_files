@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"AlignTab",
 		"All Autocomplete",
 		"Better CoffeeScript",
 		"Color Highlighter",
@@ -17,7 +18,6 @@
 		"GitGutter",
 		"Jade",
 		"Markdown Preview",
-		"Materialize",
 		"Material Theme",
 		"Open Folder",
 		"Package Control",
