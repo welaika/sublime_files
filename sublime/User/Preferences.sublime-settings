@@ -19,8 +19,7 @@
 		"*.sassc"
 	],
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
-	"theme": "Material-Theme-Darker.sublime-theme",
+	"color_scheme": "Packages/User/SublimeLinter/Material-Theme-Darker-OceanicNext (SL).tmTheme",
 	"draw_white_space": "selection",
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
@@ -57,8 +56,8 @@
 		".git",
 		".hg",
 		"coverage",
-		"public",
-		"tmp"
+		"tmp",
+		"platforms"
 	],
 	"font_face": "Monoid",
 	"font_size": 15,
@@ -71,10 +70,15 @@
 	[
 		"draw_active"
 	],
+	"material_theme_compact_sidebar": true,
+	"material_theme_small_statusbar": true,
 	"material_theme_small_tab": true,
+	"material_theme_tabs_autowidth": true,
+	"material_theme_tree_headings": true,
 	"overlay_scroll_bars": "enabled",
 	"show_encoding": true,
 	"tab_size": 2,
+	"theme": "Material-Theme-Darker.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": true
