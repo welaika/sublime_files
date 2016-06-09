@@ -7,8 +7,10 @@ Common packages and configurations for easy sharing and setup
 
 ##### Prerequisites:
 
-* Sublime must be previously installed and the package control plugin [already installed](https://packagecontrol.io/installation)
-* Almost intended to be used on Mac and should someway work on Linux
+* Sublime 
+* Package control plugin https://packagecontrol.io/installation
+
+Almost intended to be used on Mac and should someway work on Linux
 
 ##### Steps:
 
