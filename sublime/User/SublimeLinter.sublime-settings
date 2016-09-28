@@ -1,6 +1,6 @@
 {
     "user": {
-        "debug": false,
+        "debug": true,
         "delay": 0.25,
         "error_color": "D02000",
         "gutter_theme": "none",
@@ -51,9 +51,7 @@
         "passive_warnings": false,
         "paths": {
             "linux": [],
-            "osx": [
-                "/Users/fuzzy/.rbenv/shims"
-            ],
+            "osx": [],
             "windows": []
         },
         "python_paths": {
