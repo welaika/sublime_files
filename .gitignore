@@ -5,3 +5,4 @@ sublime/User/*/
 *.last-run
 Package Control.ca-list
 *ca-bundle
+sublime/User/oscrypto-ca-bundle.crt
