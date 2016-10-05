@@ -40,6 +40,11 @@
                 "excludes": [],
                 "include-linter": ""
             },
+            "slimlint": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
             "xmllint": {
                 "@disable": false,
                 "args": [],
@@ -51,7 +56,9 @@
         "passive_warnings": false,
         "paths": {
             "linux": [],
-            "osx": [],
+            "osx": [
+                "/Users/mukkoo/.rbenv/shims"
+            ],
             "windows": []
         },
         "python_paths": {
