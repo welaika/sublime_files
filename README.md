@@ -70,3 +70,7 @@ directory and will symlink the `User` foder inside your sublime folder (Mac and 
   ```
 
 * Sane configurations as garnish.
+
+## Author
+
+made with ❤️ and ☕️ by [weLaika](http://dev.welaika.com)
