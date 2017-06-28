@@ -62,7 +62,7 @@
 		"node_modules"
 	],
 	"font_face": "Monoid",
-	"font_size": 16,
+	"font_size": 19,
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -73,6 +73,7 @@
 		"draw_active"
 	],
 	"material_theme_accent_cyan": true,
+	"material_theme_bold_tab": true,
 	"material_theme_compact_panel": true,
 	"material_theme_compact_sidebar": true,
 	"material_theme_contrast_mode": true,
@@ -84,7 +85,8 @@
 	"overlay_scroll_bars": "enabled",
 	"rulers":
 	[
-		100
+		80,
+		125
 	],
 	"show_encoding": true,
 	"tab_size": 2,
