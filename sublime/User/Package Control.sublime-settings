@@ -5,7 +5,6 @@
 	],
 	"installed_packages":
 	[
-		"AlignTab",
 		"All Autocomplete",
 		"Better CoffeeScript",
 		"Color Highlighter",
@@ -15,9 +14,7 @@
 		"ElixirSyntax",
 		"FileManager",
 		"Git",
-		"GitGutter",
 		"Jade",
-		"jQuery",
 		"Markdown Preview",
 		"Material Theme",
 		"Material Theme - Appbar",
@@ -43,7 +40,6 @@
 		"SublimeLinter-rubocop",
 		"SublimeLinter-xmllint",
 		"Terminal",
-		"TypeScript",
 		"Vue Syntax Highlight",
 		"Wordless",
 		"WordPress"
