@@ -59,21 +59,22 @@
 		"coverage",
 		"tmp",
 		"platforms",
-		"node_modules"
+		"node_modules",
+		"images"
 	],
-	"font_face": "Monoid",
-	"font_size": 19,
+	"font_face": "Fira Code",
+	"font_size": 17,
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
+		"WordPress"
 	],
 	"indent_guide_options":
 	[
 		"draw_active"
 	],
 	"material_theme_accent_cyan": true,
-	"material_theme_bold_tab": true,
 	"material_theme_compact_panel": true,
 	"material_theme_compact_sidebar": true,
 	"material_theme_contrast_mode": true,
@@ -81,7 +82,6 @@
 	"material_theme_small_statusbar": true,
 	"material_theme_small_tab": true,
 	"material_theme_tabs_autowidth": true,
-	"material_theme_tree_headings": true,
 	"overlay_scroll_bars": "enabled",
 	"rulers":
 	[
@@ -89,6 +89,7 @@
 		125
 	],
 	"show_encoding": true,
+	"show_navigation_bar": false,
 	"tab_size": 2,
 	"theme": "Material-Theme.sublime-theme",
 	"translate_tabs_to_spaces": true,
