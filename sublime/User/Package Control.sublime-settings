@@ -5,10 +5,12 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"All Autocomplete",
 		"Better CoffeeScript",
 		"Diffy",
 		"Ecmascript Syntax",
+		"Edge Theme",
 		"Elixir",
 		"ElixirSyntax",
 		"FileManager",
