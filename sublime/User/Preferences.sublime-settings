@@ -19,7 +19,7 @@
 		"*.sassc"
 	],
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
 	"draw_white_space": "selection",
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
@@ -74,14 +74,6 @@
 	[
 		"draw_active"
 	],
-	"material_theme_accent_cyan": true,
-	"material_theme_compact_panel": true,
-	"material_theme_compact_sidebar": true,
-	"material_theme_contrast_mode": true,
-	"material_theme_panel_separator": true,
-	"material_theme_small_statusbar": true,
-	"material_theme_small_tab": true,
-	"material_theme_tabs_autowidth": true,
 	"overlay_scroll_bars": "enabled",
 	"rulers":
 	[
@@ -91,7 +83,7 @@
 	"show_encoding": true,
 	"show_navigation_bar": false,
 	"tab_size": 2,
-	"theme": "Material-Theme.sublime-theme",
+	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": true
