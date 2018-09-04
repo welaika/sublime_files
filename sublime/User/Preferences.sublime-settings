@@ -1,6 +1,4 @@
 {
-	"theme": "Edge Night Sky.sublime-theme",
-	"color_scheme": "Packages/Edge Theme/Edge Night Sky.tmTheme",
 	"auto_find_in_selection": true,
 	"binary_file_patterns":
 	[
@@ -21,13 +19,14 @@
 		"*.sassc"
 	],
 	"bold_folder_labels": true,
+	"color_scheme": "Packages/Edge Theme/Edge Night Sky.tmTheme",
 	"draw_white_space": "selection",
-	"edge_sidebar_font_small": false, // use a small font in the sidebar
-	"edge_sidebar_font_normal": true, // use a normal font in the sidebar
-	"edge_sidebar_font_large": false, // use a large font in the sidebar
-	"edge_sidebar_font_xlarge": false, // use an extra large font in the sidebar
-	"edge_use_sidebar_folder_icons": true, // use folder icons in the sidebar
-	"edge_use_font_face": true, // use the custom font for the UI
+	"edge_sidebar_font_large": false,
+	"edge_sidebar_font_normal": true,
+	"edge_sidebar_font_small": false,
+	"edge_sidebar_font_xlarge": false,
+	"edge_use_font_face": true,
+	"edge_use_sidebar_folder_icons": true,
 	"edge_use_tab_backgrounds": true,
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
@@ -71,7 +70,7 @@
 		"images"
 	],
 	"font_face": "Fira Code",
-	"font_size": 17,
+	"font_size": 16,
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -86,11 +85,12 @@
 	"rulers":
 	[
 		80,
-		125
+		120
 	],
 	"show_encoding": true,
 	"show_navigation_bar": false,
 	"tab_size": 2,
+	"theme": "Edge Night Sky.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": true
