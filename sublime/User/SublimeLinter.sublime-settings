@@ -3,14 +3,17 @@
   "paths": {
       "linux": [],
       "osx": [
-          "~/.rbenv/shims",
-          "~/.nvm/versions/node/v8.11.2/bin"
+          "~/.rbenv/shims"
       ],
-      "windows": []
+      "windows": [],
   },
   "linters": {
     "rubocop": {
       "use_bundle_exec": true
+    },
+    "eslint": {
+      "disable_if_not_dependency": true,
+      "env": { "PATH": "/usr/local/opt/node@8/bin" }
     }
   }
 }

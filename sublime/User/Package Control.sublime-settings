@@ -34,6 +34,7 @@
 		"SublimeLinter-coffeelint",
 		"SublimeLinter-contrib-scss-lint",
 		"SublimeLinter-contrib-slim-lint",
+		"SublimeLinter-eslint",
 		"SublimeLinter-haml",
 		"SublimeLinter-json",
 		"SublimeLinter-php",
