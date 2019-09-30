@@ -9,7 +9,11 @@
   },
   "linters": {
     "rubocop": {
-      "use_bundle_exec": true
+      // "use_bundle_exec": true,
+      "excludes": "*/*.slim"
+    },
+    "slimlint": {
+      // "use_bundle_exec": true
     },
     "eslint": {
       "disable_if_not_dependency": true,
