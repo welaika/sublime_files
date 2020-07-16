@@ -2,6 +2,7 @@
 	{ "keys": ["\\", "\\"], "command": "toggle_comment", "args": { "block": false }},
   { "keys": ["super+b"], "command": "toggle_side_bar" },
   { "keys": ["ctrl+d", "ctrl+d"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+  { "keys": ["escape", "d", "d"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
 	{ "keys": ["super+k", "super+r"], "command": "run_single_ruby_test",
     "context": [ { "key": "selector", "operator": "equal",
                   "operand": "source.ruby, source.rspec, text.gherkin.feature"
@@ -19,5 +20,19 @@
   { "keys": ["ctrl+up"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": false} },
   { "keys": ["ctrl+down"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": true} },
   { "keys": ["super+k", "super+c"], "command": "show_at_center" },
-  { "keys": ["super+shift+r"], "command": "goto_symbol_in_project" }
+  { "keys": ["super+shift+r"], "command": "goto_symbol_in_project" },
+  {
+    "keys": ["super+alt+6"],
+    "command": "set_layout", // a complete schema is here http://stackoverflow.com/questions/10913138/how-to-create-a-custom-layout-in-sublime-text-2
+    "args":
+    {
+      "cols": [0.0, 0.5, 1.0],
+      "rows": [0.0, 0.75, 1.0],
+      "cells":
+      [
+        [0, 0, 1, 1], [1, 0, 2, 1],
+        [0, 1, 2, 2]
+      ]
+    }
+  }
 ]

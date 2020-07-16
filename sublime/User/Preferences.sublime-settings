@@ -19,8 +19,15 @@
 		"*.sassc"
 	],
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/SublimeLinter/Material Spacegray (SL).tmTheme",
+	"color_scheme": "Packages/Edge Theme/Edge Night Sky.tmTheme",
 	"draw_white_space": "selection",
+	"edge_sidebar_font_large": false,
+	"edge_sidebar_font_normal": true,
+	"edge_sidebar_font_small": false,
+	"edge_sidebar_font_xlarge": false,
+	"edge_use_font_face": true,
+	"edge_use_sidebar_folder_icons": true,
+	"edge_use_tab_backgrounds": true,
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
@@ -48,7 +55,8 @@
 		".SublimeREPLHistory",
 		"*.last-run",
 		"Package Control.ca-list",
-		"*ca-bundle"
+		"*ca-bundle",
+		"app/*.js.map"
 	],
 	"folder_exclude_patterns":
 	[
@@ -56,24 +64,35 @@
 		".git",
 		".hg",
 		"coverage",
-		"public",
-		"tmp"
+		"tmp",
+		"platforms",
+		"node_modules",
+		"build",
+		"vendor"
 	],
-	"font_face": "Ubuntu Mono",
-	"font_size": 15,
+	"font_face": "Fira Code",
+	"font_size": 17,
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Markdown",
+		"Vintage",
+		"WordPress"
 	],
 	"indent_guide_options":
 	[
 		"draw_active"
 	],
-	"material_theme_small_tab": true,
+	"overlay_scroll_bars": "enabled",
+	"rulers":
+	[
+		80,
+		120
+	],
 	"show_encoding": true,
+	"show_navigation_bar": false,
 	"tab_size": 2,
-	"theme": "Material Spacegray.sublime-theme",
+	"theme": "Edge Night Sky.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": true
