@@ -13,8 +13,10 @@
       "excludes": "*/*.slim"
     },
     "slimlint": {
-      // "use_bundle_exec": true
+      "use_bundle_exec": true,
+      "env": { "SLIM_LINT_RUBOCOP_CONF": ".rubocop.yml"}
     },
+
     "eslint": {
       "disable_if_not_dependency": true,
       "env": { "PATH": "/usr/local/opt/node@8/bin" }
